@@ -1,7 +1,7 @@
-package main
+package apiserver
 
 import "log"
 
-func main() {
-	log.Println("Hello, World!")
+func SayMyName(name string) {
+	log.Println("My name is " + name)
 }
